@@ -1,0 +1,2 @@
+ros_rslidar/rslidar:ros_rslidar/rslidar_driver:ros_rslidar/rslidar_msgs:ros_rslidar/rslidar_pointcloud:ros_rslidar/rslidar_sync:rslidar_sdk
+-DCATKIN_DEVEL_PREFIX=/home/gwf/pack/catkin_rslidar16_ws/devel -DCMAKE_INSTALL_PREFIX=/home/gwf/pack/catkin_rslidar16_ws/install -G Unix Makefiles

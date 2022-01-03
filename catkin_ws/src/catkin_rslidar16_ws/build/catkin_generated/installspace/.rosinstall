@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/gwf/pack/catkin_rslidar16_ws/install/setup.sh
