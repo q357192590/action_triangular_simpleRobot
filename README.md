@@ -12,6 +12,7 @@
 2.车轮上电不锁，可能can连线问题及主控can芯片问题  
 3.nuc与stm32需要串口转usb连接才能上传定位系统数据及通过键盘控制底盘,连接方式红黑绿白  
 4.NoMachine连接的时候必须处于同一网段，即aaa.bbb.ccc.xxx  
+5.输出地图代码位于mapOptmization.cpp -> visualizeGlobalMapThread(),其中参数fileDirectory位于utility.h文件中，需要提前修改保存路径或创建文件夹，否则结束时报PCDSaveIOException
   
 ## dependence:  
 1.PCL  
