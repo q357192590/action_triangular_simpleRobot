@@ -17,6 +17,8 @@
 4.NoMachine连接的时候必须处于同一网段，即aaa.bbb.ccc.xxx  
 5.输出地图代码位于mapOptmization.cpp -> visualizeGlobalMapThread(),其中参数fileDirectory位于utility.h文件中，需要提前修改保存路径或创建文件夹，否则结束时报PCDSaveIOException。查看方法:pcl_viewer xxx.pcd
 6.分析软件evo：画轨迹图：evo_traj bag 2022-04-03-18-05-16.bag --all_topic -p --plot_mode=xz
+               转格式：evo_traj bag 2022-04-03-17-58-27.bag --all_topic --save_as_tum
+
   
 ## dependence:  
 1.PCL  
